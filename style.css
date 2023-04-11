@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: #06283d;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 105px;
+    background-color: #fff;
+    padding: 28px 32px;
+}
+
+.city-name {
+    float: left;
+}
